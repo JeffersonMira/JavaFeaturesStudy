@@ -1,6 +1,0 @@
-joao 1990 20 12
-Maria 1995 24 10
-Joaquim 1987 1 8
-Fernanda 1970 7 5
-Tobias 1970 6 2
-Tatiana 1950 28 1
