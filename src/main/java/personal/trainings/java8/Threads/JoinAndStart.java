@@ -26,7 +26,7 @@ class Runner2 implements Runnable{
     }
 }
 
-public class AppOnlineTraining01{
+public class JoinAndStart{
 
     public static void main(String[] args){
         Thread t1 = new Thread(new Runner1());

@@ -2,11 +2,18 @@ package personal.trainings.java8.Threads;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.*;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 //Study was based on the following tutorial:
 //https://www.baeldung.com/java-executor-service-tutorial
-public class TestThread03 {
+public class CallableAndFutureWeb {
 
     static int cont = 0;
     public static void main(String[] args){
