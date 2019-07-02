@@ -1,0 +1,5 @@
+Parallel Algorithms
+
+Linear regressian
+newton method 
+euler method
