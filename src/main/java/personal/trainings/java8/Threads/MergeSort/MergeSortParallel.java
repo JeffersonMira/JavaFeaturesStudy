@@ -9,7 +9,11 @@ public class MergeSortParallel {
 		this.num = num;
 		tempNum = new int[num.length];
 	}
-	
+
+	public void mergeArray(int numberOfThreads) {
+		this.mergeSortParallel(0, num.length-1, numberOfThreads);
+	}
+
 	public Thread mergeSortParallel(int low, int high, int numberOfThreads) {
 		
 		//Creating the first thread for the sorting
@@ -46,10 +50,6 @@ public class MergeSortParallel {
 	}
 
 
-	public void mergeArray() {
-		this.mergeSort(0, num.length-1);
-	}
-	
 	private void mergeSort(int low, int high) {
 		
 		if(low >= high)
