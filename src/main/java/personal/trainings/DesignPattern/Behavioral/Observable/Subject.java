@@ -1,4 +1,4 @@
-package personal.trainings.java8.DesignPattern.Behavioral.Observable;
+package personal.trainings.DesignPattern.Behavioral.Observable;
 
 public interface Subject {
 

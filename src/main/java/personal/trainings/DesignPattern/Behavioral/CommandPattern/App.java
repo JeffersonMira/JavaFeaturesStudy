@@ -1,4 +1,4 @@
-package personal.trainings.java8.DesignPattern.Behavioral.CommandPattern;
+package personal.trainings.DesignPattern.Behavioral.CommandPattern;
 
 public class App {
 

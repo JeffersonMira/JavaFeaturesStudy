@@ -1,4 +1,4 @@
-package personal.trainings.java8.DesignPattern.Behavioral.CommandPattern;
+package personal.trainings.DesignPattern.Behavioral.CommandPattern;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package personal.trainings.java8.DesignPattern.Behavioral.Strategy;
+package personal.trainings.DesignPattern.Behavioral.Strategy;
 
 /**
  * Basically you create an interface that is going to be used as base for the

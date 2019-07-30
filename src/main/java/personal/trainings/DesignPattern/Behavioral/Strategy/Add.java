@@ -1,4 +1,4 @@
-package personal.trainings.java8.DesignPattern.Behavioral.Strategy;
+package personal.trainings.DesignPattern.Behavioral.Strategy;
 
 public class Add implements Strategy{
 
