@@ -1,5 +1,9 @@
 package personal.trainings.DesignPattern.Behavioral.CommandPattern;
 
+/**
+ *  
+ * Check this command pattern in the book User a Cabeça as well
+ */
 public class App {
 
     public static void main(String[] args){
