@@ -64,6 +64,10 @@ public class MainClassTesting {
         Integer sum = streamAges.reduce(0, (num1, num2) -> num1 + num2);
     }
 
+    public static boolean exists(int[] ints, int k){
+        return Arrays.stream(ints).anyMatch(i -> i==k);
+    }
+
     public static Optional<Integer> comparatorTesting(){
         //This code gets the biggest value in the list
         List<Integer> ages = Arrays.asList(20,10,30,40);
