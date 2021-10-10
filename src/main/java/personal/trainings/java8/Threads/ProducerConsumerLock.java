@@ -26,7 +26,8 @@ class Worker{
     	lock.lock();
     	try {
     		Thread.sleep(2000);
-			System.out.println("consumer here...");
+			String x = "consumer here...";
+			System.out.println(x);
 			condition.signal(); // the same as notify
 		} finally {
 			lock.unlock();
