@@ -22,7 +22,7 @@ class Worker{
 		}
     }
 
-    public void consumer() throws InterruptedException {
+    public void  consumer() throws InterruptedException {
     	lock.lock();
     	try {
     		Thread.sleep(2000);

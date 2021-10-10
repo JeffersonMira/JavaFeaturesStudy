@@ -20,5 +20,3 @@ public class Fibonacci {
         return getFibonacci(n - 1) + getFibonacci( n -2);
     }
 }
-
-
